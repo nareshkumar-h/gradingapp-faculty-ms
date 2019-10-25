@@ -14,18 +14,17 @@ import lombok.Data;
 @Table(name="users")
 public class User {
 		 @Id
-		    @GeneratedValue(strategy=GenerationType.IDENTITY)
-		    @Column(name="id")
-	private int id;
+		 @GeneratedValue(strategy=GenerationType.IDENTITY)
+		 @Column(name="id")
+		 private int id;
 		 @Column(name="name")
-	private String name;
+		 private String name;
 		 @Column(name="email")
-	private String email;
+		 private String email;
 		 @Column(name="mobile")
-	private Long mobile;
+		 private Long mobile;
 		 @Column(name="password")
 		 private String password;
 		 @Column(name="role")
 		 private char role;
-
 }
