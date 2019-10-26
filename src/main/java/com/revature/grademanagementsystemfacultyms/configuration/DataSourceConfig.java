@@ -1,4 +1,4 @@
-package com.revature.GradeManagementSystemapi.configuration;
+package com.revature.grademanagementsystemfacultyms.configuration;
 import java.util.Properties;
 
 import javax.persistence.EntityManagerFactory;
